@@ -1,0 +1,27 @@
+{
+  "name": "insomnia-plugin-image-preview",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Image preview plugin for Insomnia",
+  "insomnia": {
+    "name": "image-preview",
+    "displayName": "🖼️ Image Preview",
+    "description": "Preview images in JSON responses",
+    "publisher": {
+      "name": "jwlmn"
+    },
+    "applications": {
+      "insomnia": {
+        "version": ">=11.0.0"
+      }
+    },
+    "previewModes": [
+      "image-preview"
+    ],
+    "capabilities": {
+      "responsePatching": true,
+      "responsePreview": true
+    }
+  },
+  "license": "MIT"
+}
